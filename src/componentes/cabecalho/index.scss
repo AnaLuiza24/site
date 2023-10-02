@@ -1,0 +1,33 @@
+.pagina-cabecalho{
+
+
+    .cabecalho{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 20px;
+
+        #logo{
+            width: 120px;
+        }
+
+        #conta{
+            width: 30px;
+        }
+
+
+        .caminhos{
+            display: flex;
+            flex-direction: row;
+            width: 520px;
+            align-items: center;
+            justify-content: space-between;
+            
+
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+}
